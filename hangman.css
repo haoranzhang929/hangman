@@ -1,0 +1,89 @@
+body{
+    background: #FF9900;
+    text-align: center;
+    /* disable selecting text function so that user cannot cheat */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.unmatch{
+    background: #ff0033;
+    color: #ff0033;
+}
+.match{
+    background: #FF9900;
+    color:#ff0033;
+}
+td{
+    border: none;
+    width: 80px;
+    height: 80px;
+    font-size: 3em;
+    text-align: center;
+
+}
+button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    background-color: #ff0033;
+    border: outset #ff0033 0.3em;
+    color: white;
+}
+div{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: white;
+    padding: 0.25em;
+}
+input{
+    background-color: #ff0033;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    border: none;
+    text-align: center;
+    height: 2em;
+}
+::-webkit-input-placeholder {
+    color:    #fff;
+}
+#alertarea{
+    font-size: 1em;
+}
+#livearea{
+    font-size: 2em;
+    padding-top: 0;
+}
+#game-container{
+    margin: auto;
+    width: 60%;
+}
+p{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+}
+.button {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 0.5em;
+}
+table{
+    margin:auto;
+}
+img{
+    width: 50%;
+    height: 50%;
+}
+#hangmanpic{
+    width: 15%;
+    height: 15%;
+}
+
+
+

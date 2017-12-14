@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hangman</title>
+        <script src="hangman.js"defer></script>
+        <link rel="stylesheet" type="text/css" href="hangman.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    </head>
+    <body>
+        <div id="game-container">
+            <p><img src="hm.png"></p>
+            <div class="button">
+                <button onclick="generate()">Generate Word</button>
+            </div>
+            <span>
+                <audio controls>
+                <source src="halloween_ii_theme.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+                </audio>
+            </span>
+            <div id="worddisplay">
+                <table id="wordTable">
+                </table>
+            </div>
+            <div id="playfield">
+                <input id="inputText" maxlength="1" placeholder="">
+                <div class="button">
+                    <button onclick="compare()">Check</button>
+                </div>
+            </div>
+            <div id="alertarea">
+
+            </div>
+            <div id="livearea">
+
+            </div>
+        </div>
+        <div id="picturearea">
+            <p><img src="hmstages/6.png" id="hangmanpic"></p>
+        </div>
+        <footer>
+            <p>&copy; 2017 Haoran Zhang</p>
+        </footer>
+    </body>
+</html>
